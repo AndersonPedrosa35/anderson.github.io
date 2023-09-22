@@ -11,7 +11,7 @@ function Contact() {
           <i className="uil uil-envelope contact__icon" />
           <div>
             <h3 className="contact__title">Email</h3>
-            <span className="contact__subtitle">andre_arnoni@yahoo.com.br</span>
+            <span className="contact__subtitle">anderson.loiro222@gmail.com</span>
           </div>
         </div>
         <div className="contact__information">

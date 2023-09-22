@@ -5,7 +5,6 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Portfolio from '../components/Portfolio';
-import Qualification from '../components/Qualification';
 import Skills from '../components/Skills';
 import Testimonial from '../components/Testimonial';
 import foto1 from '../img/foto1.png';
@@ -20,19 +19,16 @@ function Home() {
           <div className="home__container container grid">
             <div className="home__content grid">
               <div className="home__social">
-                <a href="https://www.linkedin.com/in/andrearnoni/" target="_blank" rel="noreferrer" className="home__social-icon">
+                <a href="https://www.linkedin.com/in/anderson-pedrosa-carlos/" target="_blank" rel="noreferrer" className="home__social-icon">
                   <i className="uil uil-linkedin-alt" />
                 </a>
-                <a href="https://github.com/andrearnoni" target="_blank" rel="noreferrer" className="home__social-icon">
+                <a href="https://github.com/AndersonPedrosa35" target="_blank" rel="noreferrer" className="home__social-icon">
                   <i className="uil uil-github-alt" />
-                </a>
-                <a href="https://www.instagram.com/andredepira/" target="_blank" rel="noreferrer" className="home__social-icon">
-                  <i className="uil uil-instagram" />
                 </a>
               </div>
               <Blob foto1={ foto1 } />
               <div className="home__data">
-                <h1 className="home__title">Hi, I am André!</h1>
+                <h1 className="home__title">Hi, I am Anderson!</h1>
                 <h3 className="home__subtitle">Full Stack Developer</h3>
                 <a href="#contact" className="button button--flex">
                   Contact me<i className="uil uil-message button__icon"></i>
@@ -50,7 +46,6 @@ function Home() {
         </section>
         <About />
         <Skills />
-        <Qualification />
         <Portfolio />
         <Testimonial />
         <Contact />

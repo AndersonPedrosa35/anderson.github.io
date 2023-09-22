@@ -11,7 +11,7 @@ function Header() {
   return (
     <header className="header" id="header">
       <nav className="nav container">
-        <a href="#andre" className="nav__logo">André</a>
+        <a href="#anderson" className="nav__logo">Anderson</a>
         <div className={ menu ? "nav__menu show-menu" : "nav__menu" } id="nav-menu">
           <ul className="nav__list grid">
             <li className="nav__item">

@@ -1,12 +1,8 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from 'swiper/modules';
-import Wildbeast from '../projects/Wildbeast';
-import TryBuy from '../projects/TryBuy';
-import MyWorldWallet from '../projects/MyWorldWallet';
-import FacebookPage from '../projects/FacebookPage';
+import MiniEcommerce from '../projects/MiniEcommerce';
 import GrandRecipe from '../projects/GrandRecipe';
-import PaintIt from '../projects/PaintIt';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -27,29 +23,15 @@ function Portfolio() {
             pagination
             className="mySwiper"
           >
-            <SwiperSlide>
-              <TryBuy />
-            </SwiperSlide>
 
             <SwiperSlide>
-              <Wildbeast />
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <FacebookPage />
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <MyWorldWallet />
+              <MiniEcommerce />
             </SwiperSlide>
 
             <SwiperSlide>
               <GrandRecipe />
             </SwiperSlide>
 
-            <SwiperSlide>
-              <PaintIt />
-            </SwiperSlide>
           </Swiper>
         </div>
       </div>
