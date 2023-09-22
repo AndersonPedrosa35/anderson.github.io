@@ -10,7 +10,7 @@ function Blob({ foto1 }) {
         </mask>
         <g mask="url(#mask0)">
         <circle cx="100" cy="100" r="95" fill="#54f396" />
-          <image className="home__blob-img" x="-16" y="18" xlinkHref={ foto1 } />
+          <image className="home__blob-img" x="3" y="-17" xlinkHref={ foto1 } />
         </g>  
       </svg>
     </div>
