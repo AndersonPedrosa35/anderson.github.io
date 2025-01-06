@@ -1,24 +1,24 @@
-import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import React, { useEffect } from 'react';
 import bootstrap from '../img/bootstrap.png';
 import bulma from '../img/bulma.png';
 import css from '../img/css.png';
 import express from '../img/express.png';
 import git from '../img/git.png';
+import heroku from '../img/heroku.png';
 import html from '../img/html.png';
 import js from '../img/javascript.png';
 import jest from '../img/jest.png';
 import linux from '../img/linux.png';
+import mocha from '../img/mocha.png';
 import mongodb from '../img/mongodb.png';
 import mysql from '../img/mysql.png';
 import node from '../img/node.png';
+import python from '../img/python.png';
 import react from '../img/react.png';
 import redux from '../img/redux.png';
 import rtl from '../img/rtl.png';
-import mocha from '../img/mocha.png';
-import pm2 from '../img/pm2.png';
-import heroku from '../img/heroku.png';
 import '../styles/Global.css';
 
 function Skills() {
@@ -84,7 +84,7 @@ function Skills() {
           <img data-aos="fade-right" data-aos-once="true" data-aos-delay="190"  src={ heroku } alt="heroku" />
         </div>
         <div className="skills__img">
-          <img data-aos="fade-right" data-aos-once="true" data-aos-delay="190"  src={ pm2 } alt="pm2" />
+          <img data-aos="fade-right" data-aos-once="true" data-aos-delay="190"  src={ python } alt="python" />
         </div>
       </div>
     </section>

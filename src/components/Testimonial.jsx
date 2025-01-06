@@ -1,12 +1,12 @@
 import React from 'react';
-import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
+import { Swiper, SwiperSlide } from "swiper/react";
 import network1 from '../img/network1.png';
 import network2 from '../img/network2.png';
 import network3 from '../img/network3.png';
-import network4 from '../img/network4.png'
-import "swiper/css";
-import 'swiper/css/pagination';
+import network4 from '../img/network4.png';
 import '../styles/Global.css';
 
 function Testimonial() {
@@ -33,7 +33,7 @@ function Testimonial() {
                     </div>
                   </div>
                 </div>
-                <p className="testimonial__description">" In the last project for Trybe's back-end module I was lucky enough to fall into the same group as Anderson. Every day he demonstrated not only that he had extensive knowledge of the languages we were using, but also that he was eager to meet the requirements and persistent in the face of difficulties. I can safely say that without his help the project wouldn't have turned out as well as it did. "</p>
+                <p className="testimonial__description">&quot; In the last project for Trybe's back-end module I was lucky enough to fall into the same group as Anderson. <br /> Every day he demonstrated not only that he had extensive knowledge of the languages we were using, <br />but also that he was eager to meet the requirements and persistent in the face of difficulties.<br /> I can safely say that without his help the project wouldn't have turned out as well as it did. "</p>
               </div>
             </SwiperSlide>
             <SwiperSlide>

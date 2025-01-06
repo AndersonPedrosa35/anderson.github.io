@@ -1,5 +1,5 @@
 import React from 'react';
-import foto1 from '../img/foto1.png';
+import foto1 from '../img/foto1.jpg';
 import '../styles/Global.css';
 
 function About() {

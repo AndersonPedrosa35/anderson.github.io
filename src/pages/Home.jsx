@@ -7,7 +7,7 @@ import Header from '../components/Header';
 import Portfolio from '../components/Portfolio';
 import Skills from '../components/Skills';
 import Testimonial from '../components/Testimonial';
-import foto1 from '../img/foto1.png';
+import foto1 from '../img/foto1.jpg';
 import '../styles/Global.css';
 
 function Home() {
